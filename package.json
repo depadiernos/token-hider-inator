@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run site:build && npm run lambda:build",
     "site:dev": "node server.js",
-    "site:build": "parcel build src/site/index.html --public-url ./",
+    "site:build": "parcel build src/site/index.html --public-url ./ && cp _redirects dist/",
     "lambda:dev": "netlify-lambda serve src/lambda",
     "lambda:build": "netlify-lambda build src/lambda"
   },
