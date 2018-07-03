@@ -2,3 +2,7 @@
   functions = "functions/"
   publish = "dist/"
   command = "npm run build"
+
+[template.environment]
+  API_URL = "https://maps.googleapis.com/maps/api/geocode/json"
+  API_TOKEN = "your Google Maps API key"
