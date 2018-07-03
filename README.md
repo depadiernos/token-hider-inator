@@ -5,6 +5,7 @@ This is an example of hiding the API token/key for API calls using [Google Maps 
 [Live demo](https://hzdf-maps.netlify.com/)
 
 TL;DR deploy to Netlify
+
 [![Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/depadiernos/token-hider)
 
 ## Configuration
