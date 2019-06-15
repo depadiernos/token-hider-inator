@@ -39,3 +39,7 @@ The site is now available at `http://localhost:1234/`
 _Notes: Make sure you run Functions first before you run the site._
 
 To test, go to `localhost:1234` and enter and address and hit 'submit'
+
+### 4. Run both
+
+To run both function and site servers, use `npm start`.
