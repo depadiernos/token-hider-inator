@@ -1,0 +1,72 @@
+@import url(reset.css);
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  background: url(~/hzdf-maps.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px dotted gray;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+
+header p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+form {
+  border: 3px solid slategray;
+  padding: 2rem;
+}
+
+form input {
+  font-size: 2.5rem;
+  width: 100%;
+  border: 1px solid darkgray;
+  padding: 0;
+  text-indent: 0.5rem;
+}
+
+form input::placeholder {
+  color: lightgray;
+}
+
+form button {
+  width: 100%;
+  background-color: steelblue;
+  padding: 2rem 0;
+  border: 1px solid darkgray;
+  box-sizing: content-box;
+}
+
+#coordinates {
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: center;
+}

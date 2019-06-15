@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all -p -r site:dev lambda:dev",
     "build": "npm run site:build && npm run lambda:build",
     "site:dev": "node server.js",
     "site:build": "parcel build src/site/index.html --public-url ./ && cp _redirects dist/",
@@ -20,6 +21,8 @@
     "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "npm-run-all": "^4.1.5",
+    "reset.css": "^2.0.2"
   }
 }
