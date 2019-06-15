@@ -40,12 +40,12 @@ h4 {
   padding-bottom: 1rem;
 }
 
-form {
+.form {
   border: 3px solid slategray;
   padding: 2rem;
 }
 
-form input {
+.form input {
   font-size: 2.5rem;
   width: 100%;
   border: 1px solid darkgray;
@@ -53,11 +53,11 @@ form input {
   text-indent: 0.5rem;
 }
 
-form input::placeholder {
+.form input::placeholder {
   color: lightgray;
 }
 
-form button {
+.form button {
   width: 100%;
   background-color: steelblue;
   padding: 2rem 0;
