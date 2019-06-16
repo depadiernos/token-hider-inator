@@ -30,8 +30,12 @@ const api = {
 const submit = document.getElementById("submit");
 const input = document.getElementById("address");
 submit.addEventListener("click", api.send, false);
-input.addEventListener("keyup", function(event) {
-  if (key === 13) {
-    api.send;
-  }
-});
+input.addEventListener(
+  "keyup",
+  function(event) {
+    if (event.key == "Enter") {
+      api.send();
+    }
+  },
+  false
+);
