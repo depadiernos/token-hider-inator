@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  background: url(~/hzdf-maps.png) no-repeat;
+  background: url(/hzdf-maps.png) no-repeat;
   background-size: cover;
   overflow: hidden;
   padding: 2rem;
@@ -23,6 +23,9 @@ body {
   border: 1px dotted gray;
   width: 55%;
   margin: 0 auto;
+  box-shadow: 10px 10px 46px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 46px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 46px 0px rgba(0, 0, 0, 0.75);
 }
 
 header {
