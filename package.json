@@ -6,10 +6,9 @@
   "scripts": {
     "start": "npm run lambda:dev",
     "build": "npm run site:build",
-    "site:dev": "parcel serve src/site/index.html && cp _redirects dist/",
-    "site:build": "parcel build src/site/index.html --public-url ./ && cp _redirects dist/",
-    "lambda:dev": "netlify dev -c 'npm run site:dev'",
-    "init":"netlify init"
+    "site:dev": "parcel serve src/site/index.html --public-url",
+    "site:build": "parcel build src/site/index.html --public-url",
+    "lambda:dev": "netlify dev -c 'npm run site:dev'"
   },
   "author": "Dennis Padiernos",
   "license": "ISC",

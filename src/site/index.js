@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
 
-const encode = () => {
-  const encoded = address.value.split(" ").join("+")
+const encode = (query) => {
+  const encoded = query.split(" ").join("+")
   const params = "?query=" + encoded
   return params
 }
