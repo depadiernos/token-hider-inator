@@ -4,5 +4,4 @@
   command = "npm run build"
 
 [template.environment]
-  API_URL = "your Google Maps API endpoint"
   API_TOKEN = "your Google Maps API key"
