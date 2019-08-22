@@ -25,7 +25,7 @@ exports.handler = function(event, context, callback) {
 
   // Perform the Places Query call.
   const get = () => {
-    googleMapsClient.places({query: 'food', location: ll}).asPromise()
+    googleMapsClient.places({query: query, location: ll}).asPromise()
     .then((response) =>
       {
         console.log(response.json.results)
