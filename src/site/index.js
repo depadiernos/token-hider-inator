@@ -42,7 +42,7 @@ function App() {
       </div>
 
       {
-        if (places){
+        (places) &&
           places.map((place) => {
             return <div>{place.name}</div>
           })
