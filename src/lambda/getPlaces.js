@@ -1,7 +1,8 @@
 const qs = require("qs")
 const { API_TOKEN } = process.env
 const googleMapsClient = require('@google/maps').createClient({
-  key: API_TOKEN
+  key: API_TOKEN,
+  Promise: Promise
 });
 
 exports.handler = function(event, context, callback) {
