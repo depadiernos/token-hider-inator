@@ -11,8 +11,8 @@ body {
   padding: 20rem 2rem;
 }
 
-.container {
-  background: url(/hzdf-maps.png) no-repeat;
+#app {
+  background: url(../hzdf-maps.png) no-repeat;
   background-size: cover;
   overflow: hidden;
   padding: 2rem;
