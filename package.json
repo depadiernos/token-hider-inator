@@ -6,11 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all -p -r site:dev lambda:dev",
-    "build": "npm run site:build && npm run lambda:build",
+    "build": "npm run site:build",
     "site:dev": "node server.js",
     "site:build": "parcel build src/site/index.html --public-url ./ && cp _redirects dist/",
-    "lambda:dev": "netlify-lambda serve src/lambda",
-    "lambda:build": "netlify-lambda build src/lambda"
+    "lambda:dev": "netlify-lambda serve src/lambda"
   },
   "author": "Dennis Padiernos",
   "license": "ISC",
