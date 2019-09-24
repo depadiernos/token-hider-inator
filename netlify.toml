@@ -6,3 +6,8 @@
 [template.environment]
   API_URL = "your Google Maps API endpoint"
   API_TOKEN = "your Google Maps API key"
+
+[[redirects]]
+from="/api"
+to=".netlify/functions/getapi
+status=200
