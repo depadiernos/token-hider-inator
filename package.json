@@ -8,7 +8,7 @@
     "start": "npm-run-all -p -r site:dev lambda:dev",
     "build": "npm run site:build && npm run lambda:build",
     "site:dev": "node server.js",
-    "site:build": "parcel build src/site/index.html --public-url",
+    "site:build": "parcel build src/site/index.html --public-url ./",
     "lambda:dev": "netlify-lambda serve src/lambda",
     "lambda:build": "netlify-lambda build src/lambda"
   },
