@@ -9,5 +9,5 @@
 
 [[redirects]]
 from="/api"
-to=".netlify/functions/getapi
+to=".netlify/functions/getapi"
 status=200
