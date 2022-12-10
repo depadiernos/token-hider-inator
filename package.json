@@ -15,7 +15,7 @@
   "author": "Dennis Padiernos",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.13",
     "parcel-bundler": "^1.12.3"
